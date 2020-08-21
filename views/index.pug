@@ -1,5 +1,17 @@
 extends layout
 
 block content
+  script(src='/javascripts/index.js')
   h1= title
-  p Welcome to #{title}
+  img(src='/images/image1.gif')
+  p 해파리에게 로또 자릿수 받고 싶습니까?
+
+  button#btnYes.btn.btn-primary(type='button') 네!!
+  <br>
+  p#number1.numberClass 1
+  p#number2.numberClass 2
+  p#number3.numberClass 3
+  p#number4.numberClass 4
+  p#number5.numberClass 5
+  p#number6.numberClass 6
+  p#number7.numberClass 7
